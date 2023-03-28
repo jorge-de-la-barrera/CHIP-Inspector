@@ -1,0 +1,9 @@
+{
+	"genome_metadata":	"/data3/Project_JFuster_DNA_Seq/REFERENCES/BROAD_hg38_v0.json",	
+	"##_COMMENT_1": "EXECUCION",
+	"HaplotypeCalling": {
+		"cpu": 4,
+		"memory": "32 G",
+		"java_args_HaplotypeCalling": "-Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=false -Dsamjdk.use_async_io_write_tribble=false -XX:ParallelGCThreads=2 -Xmx16g"
+	}
+}
